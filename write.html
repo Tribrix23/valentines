@@ -345,7 +345,7 @@ function generate(){
 const n=document.getElementById("name").value.trim();
 const m=document.getElementById("message").value.trim();
 if(!n||!m)return alert("Fill all fields");
-const link=`http://127.0.0.1:5500/index.html?n=${encode(n)}&m=${encode(m)}`;
+const link=`https://tribrix23.github.io/valentines/?n=${encode(n)}&m=${encode(m)}`;
 document.getElementById("output").textContent=link;
 document.getElementById("linkSection").style.display="flex";
 }
@@ -359,3 +359,4 @@ alert("Copied");
 
 </body>
 </html>
+
